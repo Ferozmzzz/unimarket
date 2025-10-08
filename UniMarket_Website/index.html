@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniMarket - Marketplace Estudiantil</title>
+  <style>
+    body { margin: 0; font-family: 'Arial', sans-serif; background: #f9f9f9; color: #333; }
+    header { background-color: #006838; color: white; padding: 15px 0; text-align: center; }
+    nav { background-color: #8DC63F; text-align: center; padding: 10px 0; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    .hero { background: url('https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat; color: white; text-align: center; padding: 100px 20px; }
+    .btn { background-color: #006838; color: white; padding: 10px 20px; text-decoration: none; border-radius: 25px; font-weight: bold; transition: background-color 0.3s; }
+    .btn:hover { background-color: #8DC63F; }
+    .cards { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 40px 20px; }
+    .card { background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 280px; overflow: hidden; transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .card img { width: 100%; height: 180px; object-fit: cover; }
+    .card h4 { color: #006838; margin: 15px 0 10px; }
+    .card p { font-size: 0.9rem; padding: 0 15px 15px; }
+    footer { background-color: #006838; color: white; text-align: center; padding: 20px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UniMarket</h1>
+    <p>El marketplace estudiantil de la CUN</p>
+  </header>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <section class="hero">
+    <h2>Conecta, compra y vende entre estudiantes</h2>
+    <p>Descubre productos y servicios hechos por y para la comunidad CUN.</p>
+    <a href="#servicios" class="btn">Explorar</a>
+  </section>
+  <section id="servicios">
+    <h3 style="color:#006838; text-align:center;">Servicios destacados</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/6335/books-magazines-building-school.jpg?auto=compress&cs=tinysrgb&w=800" alt="Libros y Apuntes">
+        <h4>Libros y Apuntes</h4>
+        <p>Encuentra ebooks, resúmenes y material académico creado por estudiantes.</p>
+        <a href="libros.html" class="btn">Ver más</a>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/6320/iphone-music-notes-apple.jpg?auto=compress&cs=tinysrgb&w=800" alt="Audiolibros">
+        <h4>Audiolibros</h4>
+        <p>Escucha tus lecturas en cualquier momento con nuestras grabaciones educativas.</p>
+        <a href="audiolibros.html" class="btn">Ver más</a>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Asesorías">
+        <h4>Asesorías</h4>
+        <p>Recibe apoyo académico personalizado de otros estudiantes expertos.</p>
+        <a href="asesorias.html" class="btn">Ver más</a>
+      </div>
+    </div>
+  </section>
+  <footer id="contacto">
+    <p>&copy; 2025 UniMarket - Proyecto CUN | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
